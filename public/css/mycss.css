@@ -1,5 +1,5 @@
 .ms_body{
-    max-height: 100vh;
+    height: calc(100vh );
 }
 
 
@@ -29,4 +29,8 @@ img *{
 .my_color{
     color: greenyellow;
     font-weight:700 ;
+}
+
+footer{
+    height: 70px;
 }
