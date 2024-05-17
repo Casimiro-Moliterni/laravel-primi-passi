@@ -14,9 +14,12 @@ use Illuminate\Support\Facades\Route;
 */
 
 Route::get('/', function () {
- return view('home');
+    $data=[
+    'nome'=>'Laravel',
+    'nome_linguaggio'=>'php',
+    'nome_developer'=>'Casimiro',
+    'nome_scuola'=>'Boolean'
+    ];
+ return view('home',$data);
 });
 
-Route::get('/about',function(){
-    return 'ciao about';
-});

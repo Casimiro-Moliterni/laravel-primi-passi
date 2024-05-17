@@ -1,0 +1,32 @@
+.ms_body{
+    max-height: 100vh;
+}
+
+
+header img{
+    height: 70px;
+}
+
+ul *{
+ list-style: none;
+}
+ul{
+    background-image: url();
+}
+.my_img{
+  height: 50px;
+}
+.my_img img{
+    object-fit: cover;
+    height: 100%;
+}
+
+
+img *{
+    max-width: 100%;
+}
+
+.my_color{
+    color: greenyellow;
+    font-weight:700 ;
+}
