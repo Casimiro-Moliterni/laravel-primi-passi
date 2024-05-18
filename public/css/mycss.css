@@ -1,6 +1,7 @@
 .ms_body{
     height: calc(100vh );
     overflow: hidden;
+    position: relative;
 }
 
 
@@ -54,4 +55,21 @@ img *{
    height: 50px;
    object-fit: cover;
    margin-bottom: 20px;
+}
+.my_overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+    background-color:hsl(214, 90%, 32%,0.9);
+}
+
+.my_overlay img{
+    opacity: 0.1;
+    object-fit: cover;
+    width: 100%;
+    height: 100%;
 }
