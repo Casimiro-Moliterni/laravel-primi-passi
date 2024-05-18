@@ -1,5 +1,6 @@
 .ms_body{
     height: calc(100vh );
+    overflow: hidden;
 }
 
 
@@ -31,6 +32,26 @@ img *{
     font-weight:700 ;
 }
 
-footer{
-    height: 70px;
+
+.my_git a>i:hover,
+.my_git:hover {
+    color: greenyellow;
+    cursor: pointer;
+}
+
+.my_git small:hover{
+    cursor: pointer;
+}
+
+.my_boolean a:hover{
+    color: greenyellow;
+}
+.my_boolean a{
+    color: white;
+}
+
+.my_youtube img{
+   height: 50px;
+   object-fit: cover;
+   margin-bottom: 20px;
 }
